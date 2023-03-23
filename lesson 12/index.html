@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="tab-icon.ico" type="image/x-icon">
+    <title>HTML lesson 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Создайте форму с возможностью ввести имя, фамилию, телефон, почту и дату со временем.
+     В получившуюся форму добавьте кнопку отправки и кнопку отчистки всех полей без использования 
+     тега button. Перед кнопками создайте группу с названием "Выберете количество огурцов для доставки",
+      поместите в него 3 radio, у каждого должна быть подпись "1 огурец", "2 огурца", "3 огурца"
+    -->
+
+<body>
+    <form>
+
+        <label for="text">Имя</label>
+        <input type="text" name="name" id="text">
+        <label for="text">Фамилия</label>
+        <input type="text" name="name" id="text">
+        <label for="tel">телефон</label>
+        <input type="tel" name="phone" id="tel">
+        <label for="email">почта</label>
+        <input type="email" name="name" id="email">
+        <label for="datetime-local">дата со временем</label>
+        <input type="datetime-local" name="name" id="datetime-local">
+
+        <br>
+        <fieldset>
+            <label for="name1">Выберете количество огурцов для доставки</label>
+            <label><input type="radio" id="name1">1 огурец</label>
+            <label><input type="radio" id="name1">2 огурца</label>
+            <label><input type="radio" id="name1">3 огурца</label>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+</body>
+
+
+</html>
