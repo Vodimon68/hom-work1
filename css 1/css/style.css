@@ -1,0 +1,8 @@
+.text--bold {
+    color: gold;
+}
+.parent, .child {
+    color: dimgray;
+}
+#blog { 
+    color: blue; }
