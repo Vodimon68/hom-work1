@@ -1,0 +1,9 @@
+p.text--bold {
+    color: red;
+}
+div.child {
+    color: green;
+}
+#blog {
+    color: rgb(84, 1, 1);
+}
