@@ -1,0 +1,15 @@
+body{
+  padding: 50px;
+  background: linear-gradient(#156, #396 );
+}
+
+.block {
+background:url(../tab-icon.ico) right no-repeat, url(../lvrdWl-d_bw.jpg) 50% no-repeat;
+height: 550px;
+border-radius: 20px;
+box-shadow: 0 0 20px;
+background-size: ;
+
+
+
+}
