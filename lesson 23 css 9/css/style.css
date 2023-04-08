@@ -1,0 +1,23 @@
+body{
+  padding: 50px;
+  background: radial-gradient(#af9300, #eb3b3b);
+  
+  }
+
+.block {
+
+background:url(../tab-icon.ico) 50% no-repeat;
+height: 550px;
+border-radius: 20px;
+box-shadow: 0 0 20px;
+
+}
+.no {
+padding: 50px;
+height: 550px;
+border-radius: 20px;
+box-shadow: 0 0 20px;
+background-image: linear-gradient(#654, #789);
+
+
+}
