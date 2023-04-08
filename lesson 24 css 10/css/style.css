@@ -1,0 +1,21 @@
+body {
+  padding: 20px;
+}
+.groups { 
+  border: 10px solid #333;
+  height: 800px;
+  max-width: 100%;
+  position: relative;
+  
+}
+.block {
+  border: 5px ;
+  height: 100px;
+  width: 50%;
+  bottom: 100px;
+  right: 50px;
+  background-color: aqua;
+  position: fixed;
+  
+  
+}
