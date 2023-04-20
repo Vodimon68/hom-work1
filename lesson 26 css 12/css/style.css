@@ -1,0 +1,19 @@
+.block {
+  border: 12px; 
+  border-style: solid;
+  width:300px;
+  height: 300px;
+  margin: 15px;
+  
+}
+.block:hover {
+  border-color: rgb(252, 18, 2);
+  transition-duration: 3s;
+  transition-delay: 2s;
+  transition: all 3s linear 2s;
+  
+  
+  
+ 
+}
+
