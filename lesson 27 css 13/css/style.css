@@ -1,0 +1,20 @@
+.text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 3rem;
+	color: black;
+
+	background: linear-gradient( 35deg, red,black,red,black);
+	background-size: 400% 400%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+     animation: r 0.5s ease-in infinite;
+	
+  }
+   
+  
+   
+  @keyframes r {
+	0% { background-position: 100% 0% }
+	
+		100% { background-position: 50% 100% }
+  }
