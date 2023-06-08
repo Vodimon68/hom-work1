@@ -1,0 +1,22 @@
+
+  .flexbox__item-content {
+  
+  border: 5px inset black;
+  padding: 20px;
+  
+  }
+  
+  
+  .flexbox {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .flexbox__item {
+    flex-grow: 1;
+    align-items:center;
+    
+  }
+  /* --------------------------------------------------------- */
+  
+  
