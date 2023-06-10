@@ -1,0 +1,35 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  padding: 50px;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid {
+  margin-bottom: 200px;
+  padding-bottom: 200px;
+  border-bottom: 10px solid #c30505;
+  min-height: 100vh;
+}
+
+.item {
+  border: 5px dashed #4144;
+  font-size: 40px;
+  padding: .8em;
+  text-align: center;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 2fr 2fr minmax(100px, 200px) 2fr 2fr ;
+  grid-row: auto auto;
+}
